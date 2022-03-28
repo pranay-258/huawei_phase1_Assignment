@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".SSMainActivity">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ss_action_play_button"
+        android:title="@string/action_play"
+        android:icon="@android:drawable/ic_media_play"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1">
+    </item>
+
+    <item
+        android:id="@+id/ss_action_share_button"
+        android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"
+        android:title="@string/action_share">
+    </item>
+
+</menu>

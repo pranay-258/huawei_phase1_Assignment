@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="COUNTRY CODE"
+        android:key="ss_country_code_category">
+        <ListPreference
+            android:key="ss_country_code"
+            android:title="Current country code: US"
+            android:summary="Changes the current country setting."
+            android:defaultValue="US"
+            android:entries="@array/ss_country_list"
+            android:entryValues="@array/ss_country_code_list"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="NOTIFICATION PLAYER"
+        android:key="ss_notifications_category">
+        <CheckBoxPreference
+            android:key="ss_notifications"
+            android:title="Display Notification Player: ON"
+            android:summary="Controls whether notification player control should be enabled or not. This feature is only supported on devices running on Android 5.0 and above."
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
